@@ -1,0 +1,21 @@
+---
+title: "Learning Branches"
+author: "Marie Bouffard"
+date: "1/7/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Add something
+```{r}
+
+library(tidyverse)
+
+ggplot(data = starwars, aes(x = mass, y = height))+
+  geom_point()
+
+```
+
